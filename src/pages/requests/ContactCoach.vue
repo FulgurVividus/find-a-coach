@@ -1,3 +1,3 @@
 <template>
-  <div></div>
+  <section>CONTACT A COACH</section>
 </template>
