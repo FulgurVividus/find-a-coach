@@ -1,14 +1,20 @@
 <template>
-  <base-dialog :show="!!error" title="An error occurred!" @close="handleError">
-    {{ error }}
-  </base-dialog>
-
   <section>
-    <base-card>
-      <h2>Register as a coach now!</h2>
+    <base-dialog
+      :show="!!error"
+      title="An error occurred!"
+      @close="handleError"
+    >
+      {{ error }}
+    </base-dialog>
 
-      <coach-form @save-data="saveData"></coach-form>
-    </base-card>
+    <section>
+      <base-card>
+        <h2>Register as a coach now!</h2>
+
+        <coach-form @save-data="saveData"></coach-form>
+      </base-card>
+    </section>
   </section>
 </template>
 
