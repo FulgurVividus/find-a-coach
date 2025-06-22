@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2a27bf9b-b75d-4d28-8ea5-8a88be526173/deploy-status)](https://app.netlify.com/projects/fulgur-vividus-find-a-coach/deploys)
+
 # Find a Coach 🔍
 
 "Find a Coach" is simple application for connecting coaches with coach-seekers in frontend, backend and career fields.
